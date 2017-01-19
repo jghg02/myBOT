@@ -1,3 +1,27 @@
+
+# instalación. 
+Necesito tener __NodeJS__ y __NPM__ instalados. Luego de esto necesito installar lo siguinte. 
+
+ - hubot — the Hubot framework
+ - coffee-script — Hubot’s scripts are written in CoffeeScript
+ - yo — a CLI tool for running Yeoman generators
+ - generator-hubot — a Yeoman generator for creating your own chatbot using the Hubot framework
+ 
+	 	> npm install hubot coffee-script yo generator-hubot
+
+Luego de esto creo una carpeta donde creare el **Bot**.
+
+Para crearlo se ejecuta el siguiente comando. 
+
+		> yo hubot
+		
+###Docuemtacion
+- https://www.sitepoint.com/spice-up-your-slack-channel-with-hubot/
+
+- https://hubot.github.com/docs/adapters/campfire/
+
+
+
 # little
 
 little is a chat bot built on the [Hubot][hubot] framework. It was
