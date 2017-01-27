@@ -1,26 +1,26 @@
 # instalación. 
- +Necesito tener __NodeJS__ y __NPM__ instalados. Luego de esto necesito installar lo siguinte. 
- +
- + - hubot — the Hubot framework
- + - coffee-script — Hubot’s scripts are written in CoffeeScript
- + - yo — a CLI tool for running Yeoman generators
- + - generator-hubot — a Yeoman generator for creating your own chatbot using the Hubot framework
- + 
- +	 	> npm install hubot coffee-script yo generator-hubot
- +
- +Luego de esto creo una carpeta donde creare el **Bot**.
- +
- +Para crearlo se ejecuta el siguiente comando. 
- +
- +		> yo hubot
- +		
- +###Docuemtacion
- +- https://www.sitepoint.com/spice-up-your-slack-channel-with-hubot/
- +
- +- https://hubot.github.com/docs/adapters/campfire/
- +
- +
- +
+ Necesito tener __NodeJS__ y __NPM__ instalados. Luego de esto necesito installar lo siguinte. 
+ 
+ - hubot — the Hubot framework
+ - coffee-script — Hubot’s scripts are written in CoffeeScript
+- yo — a CLI tool for running Yeoman generators
+- generator-hubot — a Yeoman generator for creating your own chatbot using the Hubot framework
+
+	 	> npm install hubot coffee-script yo generator-hubot
+
+Luego de esto creo una carpeta donde creare el **Bot**.
+
+Para crearlo se ejecuta el siguiente comando. 
+
+		> yo hubot
+		
+###Docuemtacion
+- https://www.sitepoint.com/spice-up-your-slack-channel-with-hubot/
+
+- https://hubot.github.com/docs/adapters/campfire/
+
+
+
 
 # Mini
 
@@ -236,3 +236,18 @@ Add the subdomain hubot should connect to. If you web URL looks like
 
 You may want to get comfortable with `heroku logs` and `heroku restart` if
 you're having issues.
+
+
+## Importante 
+    
+    sudo npm install -g yo generator-hubot
+    
+
+Error.
+
+    Your hubot-scripts.json is empty, so you just need to remove it.
+    [Thu Jan 26 2017 23:07:12 GMT-0300 (CLST)] ERROR Error loading scripts from npm package - Error: Cannot find module 'hubot-diagnostics'
+    
+Solve. 
+
+    npm install hubot-help --save
