@@ -1,3 +1,4 @@
+
 # Mini
 
 Mini is a chat bot built on the [Hubot][hubot] framework. It was
